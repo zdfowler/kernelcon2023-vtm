@@ -2,11 +2,14 @@ sensitiveCodepaths:
   # Files only allowed authors can modify
   # - 'app.js'
   # - 'controllers/**/*.js'
+  - url.py
 allowedAuthors:
   usernames:
     # GitHub username
     # - 'john-doe'
+    - zdfowler
 notificationList:
   # GitHub username or team name
   # - '@DryRunSec/security'
   # - '@john-doe'
+  - '@zdfowler'
